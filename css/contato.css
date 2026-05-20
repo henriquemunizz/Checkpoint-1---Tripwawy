@@ -126,3 +126,66 @@ select:focus {
     outline: none;
     border-color: var(--primary-color);
 }
+
+button,
+.btn-back {
+    padding: 0.8rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--card-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--muted-color);
+}
+
+.btn-back:hover {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 1.5rem;
+    color: var(--muted-color);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        height: 15vh;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .nav-links {
+        gap: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
