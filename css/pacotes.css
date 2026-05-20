@@ -72,3 +72,47 @@ header h1 {
 header p {
     color: var(--muted-color);
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+main h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+.packages-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.pacote {
+    background-color: var(--card-color);
+    width: 18rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.pacote h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.pacote img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.pacote p {
+    color: var(--muted-color);
+    line-height: 1.6;
+}
