@@ -1,3 +1,0 @@
-- Henrique da Silva Muniz - RM: 573874
-- Gustavo Costa - RM: 573074
-- Erick Keiji Miyashiro - RM: 568966
