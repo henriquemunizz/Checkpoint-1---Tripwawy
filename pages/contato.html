@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripWay - Contato</title>
 
+ erick-cp2-css
     <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="stylesheet" href="../css/contato.css">
+ main
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +21,20 @@
 <body>
 
     <nav>
+ erick-cp2-css
         <a href="../index.html" class="logo">TripWay</a>
+
+        <a href="../index.html" class="logo">
+            <img src="../images/tripway.png" alt="Logo TripWay">
+        </a>
+ main
 
         <ul class="nav-links">
             <li><a href="../index.html" class="nav-link">Home</a></li>
             <li><a href="destinos.html" class="nav-link">Destinos</a></li>
-            <li><a href="pacotes.html" class="nav-link">Pacotes</a></li>
-            <li><a href="contato.html" class="nav-link" id="nav-active">Contato</a></li>
+ erick-cp2-css
+            <li><a href="pacotes.html" class="nav-link">Pacotes ou Serviços</a></li>
+            <li><a href="contato.html" class="nav-link" id="nav-active">Contato e reserva</a></li>
         </ul>
     </nav>
 
@@ -32,6 +43,16 @@
 
         <img src="../images/reserva.png" alt="Imagem de reserva de viagem" class="header-img" width="900">
 
+            <li><a href="pacotes.html" class="nav-link">Pacotes</a></li>
+            <li><a href="contato.html" class="nav-link" id="nav-active">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contato e Reserva</h1>
+        <img src="../images/reserva.png" alt="Reserva de viagem" height="500" width="1100">
+ main
+
         <p>
             Entre em contato e garanta sua próxima viagem com praticidade,
             segurança e atendimento personalizado. ✈️🌍
@@ -39,23 +60,22 @@
     </header>
 
     <main>
+        <section>
 
-        <section class="form-container">
             <h2>Formulário de Contato</h2>
 
             <form>
-
-                <div class="form-group">
+                <div>
                     <label for="name">Nome Completo</label>
                     <input type="text" id="name" placeholder="Ex: Maria de Lourdes" required>
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="email">E-mail</label>
                     <input type="email" id="email" placeholder="Ex: email@gmail.com" required>
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="destination">Destino de interesse</label>
 
                     <select id="destination">
@@ -65,30 +85,36 @@
                     </select>
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="date">Data</label>
                     <input type="date" id="date" required>
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="amount">Quantidade de pessoas</label>
                     <input type="number" id="amount" placeholder="Ex: 5" required>
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="message">Mensagem</label>
                     <input type="text" id="message" placeholder="Ex: Amo Barcelona" required>
                 </div>
 
-                <button type="submit" class="action-btn">Enviar</button>
-
+                <button type="submit">Enviar</button>
             </form>
 
-            <a href="../index.html" class="action-btn btn-back">Voltar</a>
         </section>
+ erick-cp2-css
 
+        <a href="../index.html">Voltar</a>
     </main>
 
+
+
+        <a href="../index.html" class="btn-back">Voltar</a>
+    </main>
+
+ main
     <footer>
         <p>© 2026 TripWay — Todos os direitos reservados</p>
         <p>Contato: contato@tripway.com</p>
