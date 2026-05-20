@@ -56,3 +56,19 @@ nav {
     color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
 }
+
+header {
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+header p {
+    color: var(--muted-color);
+}
