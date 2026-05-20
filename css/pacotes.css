@@ -101,6 +101,10 @@ main h2 {
     text-align: center;
 }
 
+.pacote:hover {
+    border: 2px solid var(--primary-color);
+}
+
 .pacote h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;
@@ -115,4 +119,31 @@ main h2 {
 .pacote p {
     color: var(--muted-color);
     line-height: 1.6;
+}
+
+.pacote strong {
+    color: var(--secondary-color);
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    background-color: var(--muted-color);
+    color: var(--card-color);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-back:hover {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 1.5rem;
+    color: var(--muted-color);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
 }
