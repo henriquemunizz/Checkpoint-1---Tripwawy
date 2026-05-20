@@ -187,6 +187,98 @@ section {
     margin-bottom: 0.5rem;
 }
 
+.destination-card {
+    background-color: var(--card-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.destination-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.destination-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.destination-card p {
+    color: var(--muted-color);
+    line-height: 1.6;
+}
+
+.packages-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    background-color: var(--card-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 18rem;
+}
+
+.package-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.package-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.package-card p {
+    color: var(--muted-color);
+    line-height: 1.6;
+}
+
+.price {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.action-btn {
+    padding: 0.8rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--card-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-back {
+    background-color: var(--muted-color);
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.btn-back:hover {
+    background-color: var(--secondary-color);
+}
+
 footer {
     text-align: center;
     background-color: var(--card-color);
