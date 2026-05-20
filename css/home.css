@@ -106,3 +106,75 @@ main section:first-child img {
     border-radius: 10px;
     box-shadow: var(--shadow-md);
 }
+
+main section h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+main section:nth-child(2) {
+    text-align: center;
+}
+
+main section:nth-child(2) div {
+    display: inline-block;
+    vertical-align: top;
+
+    background-color: var(--card-color);
+    width: 16rem;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+}
+
+main section:nth-child(2) h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+}
+
+main section:nth-child(2) p {
+    color: var(--muted-color);
+    margin-bottom: 1rem;
+}
+
+main section:nth-child(2) a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main section:nth-child(3),
+main section:nth-child(4) {
+    background-color: var(--card-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+}
+
+main section:nth-child(3) ul {
+    margin-left: 1.5rem;
+}
+
+main section:nth-child(3) li {
+    margin-bottom: 0.5rem;
+}
+
+main section:nth-child(4) h3 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1rem;
+}
+
+main section:nth-child(4) p {
+    color: var(--muted-color);
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 1.5rem;
+    color: var(--muted-color);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
